@@ -55,7 +55,7 @@ var socket = io({
                 reconnectionDelay:5000});
 
 var url = window.origin;
-
+console.log("working");
 $(document).ready(function(){
 
     Initmap();
